@@ -1,0 +1,4 @@
+include ':compiler'
+include ':arouter-annotation'
+include ':app'
+rootProject.name = "JavaPoetDemo"
