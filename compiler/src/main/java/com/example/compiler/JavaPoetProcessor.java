@@ -53,7 +53,7 @@ public class JavaPoetProcessor extends AbstractProcessor {
         typeUtils = processingEnv.getTypeUtils();
         //6.
         String student = processingEnv.getOptions().get("student");
-        messager.printMessage(Diagnostic.Kind.NOTE, "=测试===" + student);
+        messager.printMessage(Diagnostic.Kind.NOTE, "=======" + student);
 
     }
 
